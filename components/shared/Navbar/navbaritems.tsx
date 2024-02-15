@@ -40,7 +40,12 @@ const NavbarItems = () => {
         </Link>
       ))}
 
-      <Link href={"#"}>
+      <Link
+        href={
+          "https://drive.google.com/file/d/1Sb4LyliPml6i053_FpN9ax66PuL7XLIw/view?usp=sharing"
+        }
+        target="_blank"
+      >
         <button className="p-[3px] relative rounded-full">
           <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-purple-600 rounded-full" />
           <div className="px-8 py-2  bg-black rounded-full  relative group transition duration-200 text-white hover:bg-transparent">
