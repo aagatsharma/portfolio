@@ -30,20 +30,20 @@ const HomeMe = () => {
             Full Stack Development
           </h1>
           <div className="flex flex-col gap-5">
-            <div className="flex items-baseline gap-4">
+            <div className="flex items-start gap-4">
               <Zap className="text-red-600" />
               <h3 className="text-2xl">
                 Building responsive website front end using React, Next.js
               </h3>
             </div>
-            <div className="flex items-baseline gap-4">
+            <div className="flex items-start gap-4">
               <Zap className="text-red-600" />
               <h3 className="text-2xl">
                 Integrating libraries like redux toolkit, tailwind, multer and
                 much more.
               </h3>
             </div>
-            <div className="flex items-baseline gap-4">
+            <div className="flex items-start gap-4">
               <Zap className="text-red-600" />
               <h3 className="text-2xl">
                 Creating application backend in Node, Express & Nest.js
@@ -76,13 +76,13 @@ const HomeMe = () => {
             Mobile App Development
           </h1>
           <div className="flex flex-col gap-5">
-            <div className="flex items-baseline gap-4">
+            <div className="flex items-start gap-4">
               <Zap className="text-red-600" />
               <h3 className="text-2xl">
                 Building and Optimizing mobile application using React Native
               </h3>
             </div>
-            <div className="flex items-baseline gap-4">
+            <div className="flex items-start gap-4">
               <Zap className="text-red-600" />
               <h3 className="text-2xl">
                 Integrating Third-Party Dependencies, APIs and other libraries
