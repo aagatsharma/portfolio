@@ -57,7 +57,7 @@ const Homestarter = () => {
         </div>
       </div>
 
-      <div>
+      <div className=" bg-gradient-to-tr from-red-600 to-purple-400 border-b-2 rounded-full p-2">
         <Image
           src={"/images/aagat.jpg"}
           alt="Aagat Image"
