@@ -59,7 +59,7 @@ export const BackgroundBeams = ({ className }: { className?: string }) => {
   return (
     <div
       className={cn(
-        "absolute bg-primary-foreground  h-full w-full inset-0  [mask-size:40px] [mask-repeat:no-repeat] flex items-center justify-center",
+        "absolute  h-full w-full inset-0  [mask-size:40px] [mask-repeat:no-repeat] flex items-center justify-center bg-primary-foreground",
         className
       )}
     >
@@ -77,7 +77,7 @@ export const BackgroundBeams = ({ className }: { className?: string }) => {
           strokeOpacity="0.05"
           strokeWidth="0.5"
         ></path>
-        Math.random() * 10
+
         {paths.map((path, index) => (
           <motion.path
             key={index}
