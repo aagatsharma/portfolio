@@ -36,7 +36,11 @@ const products = [
 ];
 
 const projectPage = () => {
-  return <HeroParallax products={products} />;
+  return (
+    <div className="p-5">
+      <HeroParallax products={products} />
+    </div>
+  );
 };
 
 export default projectPage;

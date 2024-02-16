@@ -82,7 +82,7 @@ const tech = [
 
 const AboutPage = () => {
   return (
-    <div className="py-10 max-w-7xl m-auto">
+    <div className="py-10 max-w-7xl m-auto p-5">
       <div className="flex w-full justify-center">
         <h1 className="bg-gradient-to-r from-red-600 to-purple-400 text-transparent bg-clip-text md:text-7xl text-6xl font-bold leading-tight xl:h-20 ">
           About Me
