@@ -1,5 +1,6 @@
 import ContactDetail from "@/components/contact/ContactDetail";
 import { BackgroundBeams } from "@/components/ui/background-beams";
+import Link from "next/link";
 
 import React, { useRef } from "react";
 

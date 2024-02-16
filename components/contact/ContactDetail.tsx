@@ -3,7 +3,9 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import emailjs from "@emailjs/browser";
+import Link from "next/link";
 import { FormEvent, useRef, useState } from "react";
+import { Button } from "../ui/button";
 const ContactDetail = () => {
   const form = useRef<any>();
   const [disable, setDisable] = useState(false);
@@ -64,9 +66,16 @@ const ContactDetail = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-purple-600 rounded-full" />
           <div className="px-8 py-2  bg-primary-foreground rounded-full  relative group transition duration-200 text-white hover:bg-transparent">
-            Contact
+            Submit
           </div>
         </button>
+      </div>
+      <div className="z-10 mt-10">
+        <Link href="mailto:aagats72@gmail.com" target="_blank" className="z-10">
+          <Button variant={"shimmer"} type="button">
+            Send Mail Directly
+          </Button>
+        </Link>
       </div>
     </form>
   );
