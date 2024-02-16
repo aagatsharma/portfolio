@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <NextProgress />
         <Navbar />
-        <main className="p-5">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
