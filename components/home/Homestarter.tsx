@@ -8,10 +8,10 @@ const Homestarter = () => {
   return (
     <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 justify-items-center md:p-28 ">
       <div className="flex gap-10 flex-col place-self-center pt-10 ">
-        <h1 className="bg-gradient-to-r from-red-600 to-purple-400 text-transparent bg-clip-text md:text-7xl text-6xl font-bold leading-tight xl:h-20 ">
+        <h1 className="bg-gradient-to-r from-red-600 to-purple-400 text-transparent bg-clip-text md:text-6xl text-5xl font-bold leading-tight xl:h-20 ">
           Aagat Sharma
         </h1>
-        <p className="md:text-4xl text-3xl text-primary/60">
+        <p className="md:text-3xl text-2xl text-primary/60">
           A passionate individual who always thrives to work on end to end
           products to develop sustainable, scalable, social and technical
           systems which create impact.
@@ -57,7 +57,7 @@ const Homestarter = () => {
         </div>
       </div>
 
-      <div className=" bg-gradient-to-tr from-red-600 to-purple-400 border-b-2 rounded-full p-2">
+      <div className="rounded-full">
         <Image
           src={"/images/aagat.jpg"}
           alt="Aagat Image"

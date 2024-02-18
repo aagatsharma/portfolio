@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="p-5 border-b sticky top-0 z-50 bg-primary-foreground">
       <div className="flex justify-between items-center ">
         <Link href={"/"}>
-          <h1 className="bg-gradient-to-r from-red-600 to-purple-400 inline-block text-transparent bg-clip-text text-3xl">
+          <h1 className="bg-gradient-to-r from-red-600 to-purple-400 inline-block text-transparent bg-clip-text text-2xl">
             {`<ꪖꪖgꪖt కꫝꪖꪹꪑꪖ />`}
           </h1>
         </Link>
