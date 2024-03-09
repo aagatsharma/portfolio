@@ -42,7 +42,7 @@ const NavbarItems = () => {
 
       <Link
         href={
-          "https://drive.google.com/file/d/1SIFoe36mU4kAtg1p4eHbh2384qv4gwkQ/view?usp=sharing"
+          "https://drive.google.com/file/d/1hrtcKjzXk1Rum_7PxB8royAWBgxdtL45/view?usp=sharing"
         }
         target="_blank"
       >
