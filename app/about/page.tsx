@@ -1,4 +1,5 @@
 import { AboutIconCard } from "@/components/about/AboutIconCard";
+import IconCloud from "@/components/ui/icon-cloud";
 import React from "react";
 
 const tech = [
@@ -6,10 +7,7 @@ const tech = [
     title: "Bootstrap",
     icon: "bootstrap",
   },
-  {
-    title: "C Language",
-    icon: "c",
-  },
+
   {
     title: "CSS",
     icon: "css",
@@ -21,10 +19,6 @@ const tech = [
   {
     title: "Firebase",
     icon: "firebase",
-  },
-  {
-    title: "Flutter",
-    icon: "flutter",
   },
   {
     title: "Git",
@@ -80,6 +74,34 @@ const tech = [
   },
 ];
 
+const slugs = [
+  "typescript",
+  "javascript",
+  "tailwindcss",
+  "bootstrap",
+  "react",
+  "html5",
+  "css3",
+  "nodedotjs",
+  "express",
+  "nextdotjs",
+  "prisma",
+  "amazonaws",
+  "postgresql",
+  "firebase",
+  "nginx",
+  "vercel",
+  "testinglibrary",
+  "jest",
+  "cypress",
+  "docker",
+  "git",
+  "github",
+  "gitlab",
+  "visualstudiocode",
+  "figma",
+];
+
 const AboutPage = () => {
   return (
     <div className="py-10 max-w-7xl m-auto p-5">
@@ -92,13 +114,11 @@ const AboutPage = () => {
         <h1 className="md:text-5xl text-4xl">A bit about me</h1>
         <h2 className="md:text-2xl text-xl text-primary/60">
           {`I'm a self-taught web developer and Mobile App Developer with
-          experience in designing new features from ideation to production,
-          implementation of wireframes and design flows into high performance
+          experience in implementation of wire frames and design flows into high performance
           software applications. I take into consideration the user experience
           while writing reusable and efficient code. I passionately combine good
           design, technology, and innovation in all my projects, which I like to
-          accompany from the first idea to release.Currently, I'm focused on the
-          backend development.`}
+          accompany from the first idea to release.`}
         </h2>
       </div>
       <div className="pt-10 flex flex-col gap-5">
@@ -106,6 +126,9 @@ const AboutPage = () => {
         <h2 className="md:text-2xl text-xl text-primary/60">
           {`Using a combination of cutting-edge technologies and reliable open-source software I build user-focused, performant apps and websites for smartphones, tablets, and desktops.`}
         </h2>
+      </div>
+      <div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-background px-20 pb-20 pt-8 ">
+        <IconCloud iconSlugs={slugs} />
       </div>
       <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-1 ">
         {tech.map((tech) => (
