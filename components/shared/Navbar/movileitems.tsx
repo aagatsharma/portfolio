@@ -44,7 +44,7 @@ const MobileNavItems = () => {
       <SheetClose asChild>
         <Link
           href={
-            "https://drive.google.com/file/d/1hrtcKjzXk1Rum_7PxB8royAWBgxdtL45/view?usp=sharing"
+            "https://drive.google.com/file/d/12tiBqu4e74Ux4skj0nGHdBPMUCS9jkvP/view?usp=sharing"
           }
           target="_blank"
         >
